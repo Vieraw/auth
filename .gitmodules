@@ -1,0 +1,3 @@
+[submodule "external/mariadbpp"]
+	path = external/mariadbpp
+	url = https://github.com/viaduck/mariadbpp.git
