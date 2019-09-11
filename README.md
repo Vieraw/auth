@@ -92,8 +92,8 @@ count = 5
 ```
 
 ## TODO
--[ ] Add BruteForce protection
--[ ] Add other protocols
+- [ ] Add BruteForce protection
+- [ ] Add other protocols
 
 
 ## License
