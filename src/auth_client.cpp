@@ -135,7 +135,7 @@ int auth_client::write(const BigEndian<uint32_t> &opcode, util::bytestream &stre
     util::bytestream package;
     package << util::WriteCUInt(opcode) << util::WriteCUInt(stream.str().length()) << stream.str();
     package.str(_encryptor.encrypt(package.str()));
-    _socket.write(package);
+    return _socket.write(package);
 }
 
 bool auth_client::is_open() {
